@@ -113,6 +113,7 @@ DATABASES = {
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
+            'options': 'endpoint=ep-autumn-boat-34205438',
         },
     }
 }
