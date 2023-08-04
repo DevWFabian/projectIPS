@@ -109,15 +109,10 @@ DATABASES = {
         'NAME': 'IPSPrevenir',
         'USER': 'fl0user',
         'PASSWORD': '5pkILeD8qVPl',
-        'HOST': 'ep-autumn-boat-34205438.us-east-2.aws.neon.tech?options=endpoint%3Dep-autumn-boat-34205438',
+        'HOST': 'ep-autumn-boat-34205438.us-east-2.aws.neon.tech?options=endpoint%3Dep-mute-recipe-123456',
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',
-            'sslrootcert': '/path/to/certificate.pem',  # Si es necesario
-            # 'sslcert': '/path/to/client-cert.pem',     # Si es necesario
-            # 'sslkey': '/path/to/client-key.pem',       # Si es necesario
-            # 'sslcompression': 0,                       # Si es necesario
-            # 'sslciphers': 'HIGH:MEDIUM:+3DES:!aNULL',  # Si es necesario
         },
     }
 }
