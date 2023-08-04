@@ -112,10 +112,16 @@ DATABASES = {
         'HOST': 'ep-autumn-boat-34205438.us-east-2.aws.neon.tech',
         'PORT': '5432',
         'OPTIONS': {
-            'sslmode':'require'
-        }
+            'sslmode': 'require',
+            'sslrootcert': '/path/to/certificate.pem',  # Si es necesario
+            # 'sslcert': '/path/to/client-cert.pem',     # Si es necesario
+            # 'sslkey': '/path/to/client-key.pem',       # Si es necesario
+            # 'sslcompression': 0,                       # Si es necesario
+            # 'sslciphers': 'HIGH:MEDIUM:+3DES:!aNULL',  # Si es necesario
+        },
     }
 }
+
 
 
 
