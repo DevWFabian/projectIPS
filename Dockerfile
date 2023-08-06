@@ -14,8 +14,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the project files to the working directory
 COPY . .
 
-# Expose port 8001 for the application
+# Expose port 8080 for the application
 EXPOSE 8080
 
 # Start the application
-CMD ["python", "manage.py", "runserver"]
+CMD python manage.py makemigrations && python manage.py migrate && python manage.py runserver
