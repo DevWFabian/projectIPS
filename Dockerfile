@@ -10,6 +10,6 @@ ADD . /projectIPS/
 
 RUN pip install -r requirements.txt
 
-EXPOSE 8080
+EXPOSE 8001
 
 CMD  python manage.py runserver 0.0.0.0:$PORT
